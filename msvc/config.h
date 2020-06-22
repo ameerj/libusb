@@ -1,10 +1,10 @@
 /* config.h.  Manual config for MSVC.  */
-
+/*
 #ifndef _MSC_VER
 #warning "msvc/config.h shouldn't be included for your development environment."
 #error "Please make sure the msvc/ directory is removed from your build path."
 #endif
-
+*/
 /* Visual Studio 2015 and later defines timespec */
 #if (_MSC_VER >= 1900)
 #define _TIMESPEC_DEFINED 1
